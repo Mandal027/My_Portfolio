@@ -55,12 +55,12 @@ const ShowcaseSection = () => {
                 {/* LEFT */}
                 <div className='first-project-wrapper' ref={project1Ref}>
                     <div className='image-wrapper'>
-                        <img src='/images/project1.png' alt='Ryde' />
+                        <img src='/images/projectPW.png' alt='Ryde' />
                     </div>
                     <div className='text-content'>
-                        <h2>On demand Rindes Made Simple with a powerfull, user-Friendly App called Ryde</h2>
+                        <h2>Digital Platform for the artist of club named Painting Wing</h2>
                         <p className='text-white-50 md:text-xl'>
-                            An App build wuith React Native, Expo and Firebase that allows users to book rides with ease.
+                            An App build wuith Next, ThreeJS, React-Three-Fibre and Tailwind that allows users to feel the 3D realm of the club.
                         </p>
                     </div>
                 </div>
@@ -69,9 +69,9 @@ const ShowcaseSection = () => {
                 <div className='project-list-wrapper overflow-hidden'>
                     <div className='project' ref={project2Ref}>
                         <div className='image-wrapper bg-[#ffefdb]'>
-                            <img src='/images/project2.png' alt='Library Management Platform' />
+                            <img src='/images/projectEES.png' alt='Library Management Platform' />
                         </div>
-                        <h2>Library Management Platform</h2>
+                        <h2>Electrical Engineering Society</h2>
                     </div>
 
                     <div className='project' ref={project3Ref}>
